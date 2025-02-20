@@ -1,13 +1,13 @@
-SipSync
-=======
+☕ SipSync
+=========
 
-Overview
---------
+🔍 Overview
+-----------
 
 SipSync is a cafe-matching application built using Xcode/Swift, leveraging NLP and semantic search to rank cafes based on user preferences. Unlike traditional map applications that rank cafes by proximity, SipSync personalizes recommendations by analyzing both numerical and textual inputs, providing a tailored cafe experience.
 
-Features
---------
+🎯 Features
+-----------
 
 *   **Personalized Cafe Ranking**: Uses NLP techniques to analyze cafe reviews and compare them with user queries.
     
@@ -18,8 +18,8 @@ Features
 *   **Integrated Mapping**: Utilizes Apple MapKit and Google Places API to display and rank nearby cafes.
     
 
-App Walkthrough
----------------
+📱 App Walkthrough
+------------------
 
 1.  **Login View**: Entry point for the app; currently uses local variables but will integrate with SQL/Flask for user authentication.
     
@@ -30,29 +30,29 @@ App Walkthrough
 4.  **Profile View**: Shows user details, past visits, and previous cafe ratings.
     
 
-Tech Stack & Frameworks
------------------------
+🛠️ Tech Stack & Frameworks
+---------------------------
 
-### Frontend
+### 🎨 Frontend
 
 *   Swift, Xcode, NavigationView for app navigation.
     
 
-### Mapping & Data Fetching
+### 🗺️ Mapping & Data Fetching
 
 *   **Apple MapKit**: Displays cafe locations via placemarks and MapItems.
     
 *   **Google Places API**: Retrieves detailed cafe information (ratings, reviews, ambiance, etc.).
     
 
-### Data Handling
+### 🗄️ Data Handling
 
 *   Initial dataset scraped via Python script for ~100 cafes near Berkeley.
     
 *   Merges MapKit and Places API data, filling in missing details where necessary.
     
 
-### Filtering Algorithm
+### 🏷️ Filtering Algorithm
 
 *   Accepts user-defined filters (e.g., ambiance, drink quality, seating availability).
     
@@ -63,8 +63,8 @@ Tech Stack & Frameworks
 *   Dynamically updates rankings based on user preferences and historical data.
     
 
-Future Steps
-------------
+🚀 Future Steps
+---------------
 
 *   **Improve Data Integration**: Expand dataset and transition to a real-time API-based solution.
     
